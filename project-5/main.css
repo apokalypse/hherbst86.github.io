@@ -1,7 +1,3 @@
-#600, #360 {
-  position: absolute;
-}
-
 body{
   background-color: black; 
 }
@@ -109,10 +105,6 @@ body{
 
 @media only screen and (max-width: 600px) and (min-width: 361px) {
   
-  
-  #600 {
-    color: white;
-  }
 
   .gallery-wrapper{
   max-width: 600px;
@@ -200,10 +192,6 @@ body{
 
 @media only screen and (max-width: 360px) {
  
-  
-  #360 {
-    color: white;
-  }
 
   .gallery-wrapper{
   max-width: 360px;
