@@ -2,6 +2,8 @@
   background-image: url('http://res.cloudinary.com/elemenope/image/upload/v1505678457/Nyan-Cat-Image_xlnkdv.jpg');
   background-size: 100% 100%;
   height: 850px;
+  position: relative;
+  top: 20px;
 }
 
 #colorbuilder{
@@ -15,6 +17,8 @@
   font-family: Bungee;
   color: white;
   margin: 0 auto;
+  position: relative;
+  top: 30px;
 }
 
 #square{
