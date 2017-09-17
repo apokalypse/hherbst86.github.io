@@ -1,44 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="https://hherbst86.github.io/project-3/main.css">  
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bungee">
+    <link rel="stylesheet" type="text/css" href="https://hherbst86.github.io/project-2/main.css">
   </head>
   <body>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Atomic Age">
-  <div id="calculator">
-    <div class="screenClass">
-      <input type="text" id="screen" name="display"></input>
-    </div><br>
-    <div class="button1">
-    <button id="AC" value="AC" onclick="screenInput(this.value)">AC</button>
-    <button id="C" value="C" onclick="screenInput(this.value)">C</button>
-    <button id="divide" value="/" onclick="screenInput(this.value)">/</button>
-    <button id="multiply" value="*" onclick="screenInput(this.value)">*</button>
-    <br>
-    <button id="seven" value="7" onclick="screenInput(this.value)">7</button>
-    <button id="eight" value="8" onclick="screenInput(this.value)">8</button>
-    <button id="nine" value="9" onclick="screenInput(this.value)">9</button>
-    <button id="subtract" value="-" onclick="screenInput(this.value)">-</button>
-    <br>
-    <button id="four" value="4" onclick="screenInput(this.value)">4</button>
-    <button id="five" value="5" onclick="screenInput(this.value)">5</button>
-    <button id="six" value="6" onclick="screenInput(this.value)">6</button>
-    <button id="add" value="+" onclick="screenInput(this.value)">+</button>
-    <br>
-    <button id="one" value="1" onclick="screenInput(this.value)">1</button>
-    <button id="two" value="2" onclick="screenInput(this.value)">2</button>
-    <button id="three" value="3" onclick="screenInput(this.value)">3</button>
-    <button id="percent" value="%" onclick="screenInput(this.value)">%</button>
-    <br>
-    <button id="zero" value="0" onclick="screenInput(this.value)">0</button>
-    <button id="decimal" value="." onclick="screenInput(this.value)">.</button>
-    <button id="del" value="delete" onclick="deleteVal(this.value)">DEL</button>
-    <button id="equals" value="=" onclick="calculate(document.getElementById('screen').value)">=</button>
-    <br>
-    </div> 
-  </div>
-  <script type="text/javascript" src="calculator.js"></script>
+    <div id="color-wrapper">
+    <div id="colorbuilder">
+      <h1 id="title">RGB Color Selector!</h1>
+      <input id="red" type="range" min="0" max="255" step="5"/>Red <span id="redNum"></span><br>
+      <input id="green" type="range" min="0" max="255" step="5"/>Green <span id="greenNum"></span><br>
+      <input id="blue" type="range" min="0" max="255" step="5"/>Blue <span id="blueNum"></span><br>
+      <input id="alpha" type="range" min="0" max="1" step="0.1"/>Alpha <span id="alphaNum"></span>
+      <div id="square"></div>
+      <span id="choose">❤ Choose a color! ❤</span>
+    </div>
+   </div>
+   <script type="text/javascript" src="colorpicker.js"></script>
   </body>
-  </html>
+</html>
