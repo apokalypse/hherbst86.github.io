@@ -1,0 +1,303 @@
+html {
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+
+#cart-listing {
+    position: absolute;
+    border: 1px solid black;
+    width: 500px;
+    margin-top: 10px;
+    left: 490px;
+    top: 110px;
+    background-color: gray;
+    z-index: 1000;
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 3em;
+    color: #263238;
+    width: 100%;
+}
+
+#icon-box {
+    padding: 10px;
+    background-color: #e9f2cc;
+    width: 144px;
+    cursor: pointer;
+    z-index: 500;
+    top: 120px;
+    border-radius: 5px;
+    position: absolute;
+    right: 50px;
+}
+
+#cart-listing {
+    font-family: 'Cabin', sans-serif;
+    border: 1px solid black;
+    width: 480px;
+    background-color: gray;
+    top: 60px;
+    z-index: 1000;
+    position: relative;
+    float: right;
+    margin-right: 530px;
+    top: 59px;
+}
+
+#cart-listing td {
+    padding: 8px;
+    text-align: center;
+}
+
+#cart-listing img {
+    height: 80px;
+    width: 80px;
+}
+
+.exit {
+    height: 30px;
+    width: 30px;
+    font-size: 1em;
+    padding-bottom: 25px;
+    padding-left: 16px;
+    color: black;
+    cursor: pointer;
+    float: right;
+    background-color: gray;
+    border: transparent;
+}
+
+.hide {
+    display: none;
+}
+
+.top-nav{
+    width: 100%;
+}
+
+.a{
+    background-color: #E3888A;
+    height: 103px;
+}
+
+.b{
+    background-color: #272B2E;
+    height: 70px;
+}
+
+.wrapper {
+    margin-top: 50px;
+    position: absolute;
+}
+
+.wrapper button {
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+}
+
+.product-box {
+    background-color: whitesmoke;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    margin-top 75px;
+    margin-bottom: 75px
+}
+
+.product-box img{
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 54px !important;
+    height: 200px;
+    width: 200px;
+}
+
+
+.item-price,.itemName {
+    font-variant: small-caps;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.itemName {
+    position: absolute;
+    left: 55px;
+    color: #fff;
+    font-size: 23px;
+    z-index: 10;
+    min-width: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.item-price{
+    width: 100px;
+    position: relative;
+    left: 98px;
+    bottom: 10px;
+}
+
+
+.buttonsContainer {
+    width:100%;
+    position: relative;
+    bottom: 15px;
+    left: 40px;
+}
+
+.buttonsContainer button{
+    border-radius: 10px;
+}
+
+
+#hr-footer{
+    margin-bottom: 2.5%;
+}
+
+.productpage-wrapper td{
+    padding-left: 25px;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.row{
+    width: 100%;
+    min-height: 1px;
+    float: left;
+}
+
+.col{
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.footer-row {
+  margin-bottom: 0px;
+  height: 200px;
+  background-color: #272B2E;
+  width: 100%;
+  bottom: -800px;
+  position: relative;
+}
+
+.col.one {width: 8.33333%;}
+.col.two {width: 16.66667%;}
+.col.three {width: 25%;}
+.col.four {width: 33.333333%;}
+.col.five {width: 41.66667%;}
+.col.six {width: 50%;}
+.col.seven {width: 58.33333%;}
+.col.eight {width: 66.66667%;}
+.col.nine {width: 75%;}
+.col.ten {width: 83.33333%;}
+.col.eleven {width: 91.66667%;}
+.col.twelve {width: 100%;}
+
+/*Landscape phones and down*/
+
+@media only screen and (min-width: 320px) and (max-width: 479px) { 
+  #icon-box{
+    height: 12px;
+    padding: 10px;
+    right: 20px;
+    top: 130px;
+  }
+    .col{
+        width: 100% !important;
+    }
+    .product-box{
+    left: 0px;
+    }
+    #cart-listing {
+    font-family: 'Cabin', sans-serif;
+    color: whitesmoke;
+    width: 100%;
+    border: transparent;
+    background-color: #272B2E;
+    top: 2460px;
+    z-index: 1000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+  /*position: relative;*/
+  /*float: right;*/
+  /*margin-right: 510px;*/
+    left: 0px;
+    position: absolute;
+    }
+
+  #cart-listing td {
+      border: transparent;
+      padding: 3px;
+      text-align: center;
+      background-color: #272B2E;
+  }
+
+  #cart-listing img {
+      height: 65px;
+      width: 65px;
+  }
+  .exit {
+   display: none;
+  }
+  .wrapper {
+    position: absolute;
+    left: 0;
+  }
+  .footer-row{
+    bottom: -2600px;
+  }
+  
+}
+
+/*Landscape phone to portrait tablet*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .col{
+        width: 100% !important;
+    }
+    .product-box{
+    left: 0px;
+  }
+  .wrapper{
+    position: absolute;
+    left: 0;
+  }
+  .footer-row{
+    bottom: -2300px;
+  }
+  
+}
+
+/*Portrait tablet to landscape and desktop*/
+
+@media only screen and (min-width: 768px) and (max-width: 979px) { 
+    .col{
+        width: 100% !important;
+    }
+  .product-box{
+    left: 0px;
+  }
+  .wrapper{
+   position: absolute;
+   left: 0;
+  }
+  .footer-row{
+    bottom: -2300px;
+  }
+}
+
