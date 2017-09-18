@@ -1,0 +1,33 @@
+.navigator-arrows{
+  border: 1px solid black;
+  border-radius: 8px;
+  position: fixed;
+  right: 100px;
+  top: 200px;
+  cursor: pointer;
+  overflow: hidden;
+  letter-spacing: 20px;
+  line-height: 40px;
+  padding-left: 12px;
+  width: 80px;
+}
+
+.navigator-arrows i,
+.navigator-arrows a {
+  color: black;
+  font-weight: bold;
+  position: relative;
+  left: 2px;
+}
+
+.line{
+  position: relative;
+  top: 2000px;
+}
+
+
+.lorem { 
+  font-size: 32pt;
+  margin-right: 210px;
+  margin-left: 40px;
+}
