@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Collectible Cats</title>
+      <link rel="stylesheet" type="text/css" href="https://hherbst86.github.io/project-8/main.css">  
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Cabin" rel="stylesheet">
+    </head>
+    <body>
+      <div class="productpage-wrapper">
+      <div class="top-nav a">
+          <h1><span id="banner">Purrfect Pets</span></h1>
+          </div>
+      </div>
+      <div class="top-nav b">
+          <div id="icon-box">Cart &nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Wishlist
+          &nbsp;<i class="fa fa-paw" aria-hidden="true"></i></div>
+        <table id="cart-listing">
+          <thead>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><button type="button" class="exit" onclick="hideCart()"><i class="fa fa-times" aria-hidden="true"></i></button></td>
+            </tr>
+          </thead>
+          <tfoot>
+          <tr><td></td></tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td id="calculateTotal"><button type="button" class="calculateButton" onclick="showTotal()">Calculate Total: </button></td>
+            <td id="totalPrice">Calculate total!</td>
+          </tr>
+          </tfoot>
+        </table>
+          </div>
+
+      <section class="wrapper">
+
+        <!--item 1-->
+      <div class="row">
+          <div class="col four">
+          <div class="product-box">
+              <span class="itemName">Tumultuous Tabby</span>
+          <img src="http://lorempixel.com/300/300/cats" id="img-1">
+          <p class="item-price" id="p1">Price: $<span>19</span></p>
+          <div class="buttonsContainer">
+            <button type="button" data-itemid="tumultuous-tabby" id="button-1-cart" class="addButton">Add to Cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </button>
+
+
+            <button type="button" id="button-1-wishlist" onclick="addToWishList()">Add to Wishlist <i class="fa fa-paw" aria-hidden="true"></i>
+            </button>
+          </div>
+          </div>
+          </div>
+
+        <!--item 2-->
+          <div class="col four">
+          <div class="product-box">
+          <span class="itemName">Furocious Feline</span>
+          <img src="http://lorempixel.com/300/300/cats" id="img-2">
+
+          <p class="item-price" id="p2">Price: $<span>29</span></p>
+          <div class="buttonsContainer">
+            <button type="button" data-itemid="furocious-feline" id="button-2-cart" class="addButton">Add to Cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </button>
+
+            <button type="button" id="button-2-wishlist" onclick="addToWishList()">Add to Wishlist <i class="fa fa-paw" aria-hidden="true"></i>
+            </button>
+          </div>
+          </div>
+          </div>
+
+        <!--item 3-->
+          <div class="col four">
+        <div class="product-box">
+          <span class="itemName">Pawsitive Pal</span>
+          <img src="http://lorempixel.com/300/300/cats" id="img-3">
+          <p class="item-price" id="p3">Price: $<span>39</span></p>
+          <div class="buttonsContainer">
+            <button type="button" data-itemid="pawsitive-pal" id="button-3-cart" class="addButton">Add to Cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </button>
+
+            <button type="button" id="button-3-wishlist" onclick="addToWishList()">Add to Wishlist <i class="fa fa-paw" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+          </div>
+          </div>
+
+        <!--item 4-->
+      <div class="row">
+        <div class="col four">
+        <div class="product-box">
+          <span class="itemName">Mewsic Maker</span>
+          <img src="http://lorempixel.com/300/300/cats" id="img-4">
+          <p class="item-price" id="p4">Price: $<span>49</span></p>
+          <div class="buttonsContainer">
+            <button type="button" data-itemid="mewsic-maker" id="button-4-cart" class="addButton">Add to Cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </button>
+
+
+            <button type="button" id="button-4-wishlist">Add to Wishlist <i class="fa fa-paw" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+          </div>
+
+        <!--item 5-->
+          <div class="col four">
+        <div class="product-box">
+          <span class="itemName">Claw-some Cat</span>
+          <img src="http://lorempixel.com/300/300/cats" id="img-5">
+          <p class="item-price" id="p5">Price: $<span>59</span></p>
+          <div class="buttonsContainer">
+            <button type="button" data-itemid="claw-some-cat" id="button-5-cart" class="addButton">Add to Cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </button>
+            <button type="button" id="button-5-wishlist" onclick="addToWishList()">Add to Wishlist <i class="fa fa-paw" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+          </div>
+
+        <!--item 6-->
+          <div class="col four">
+        <div class="product-box">
+          <span class="itemName">Catnapper</span>
+          <img src="http://lorempixel.com/300/300/cats" id="img-6">
+          <p class="item-price" id="p6">Price: $<span>69</span></p>
+          <div class="buttonsContainer">
+            <button type="button" data-itemid="catnapper" id="button-6-cart" class="addButton">Add to Cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </button>
+
+            <button type="button" id="button-6-wishlist" onclick="addToWishList()">Add to Wishlist <i class="fa fa-paw" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+          </div>
+          </div>
+        </section>
+        <div class="row footer-row"></div>
+      <br><br><br>
+
+      <script type="text/javascript" src="cart.js"></script>
+    </body>
+  </html>
