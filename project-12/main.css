@@ -177,14 +177,25 @@ form {
 
 @media only screen and (min-width: 992px) and (max-width: 1999px){ 
 
-
+  html {
+    background-color: purple;
+  }
+  
+  
     #appointment_form { 
-    max-width: 800px !important;
+    font-size: 1em;
+    max-width: 600px !important;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    text-align: center;
     }
   
     #appointment_form span {
-      padding:10px;
+      padding: 10px;
+      display: block;
     }
+ 
   
     #appointment_form span:nth-child(12){
       display: inline-block;
