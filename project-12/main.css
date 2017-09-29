@@ -175,12 +175,7 @@ form {
   
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1999px){ 
-
-  html {
-    background-color: purple;
-  }
-  
+@media only screen and (min-width: 992px) and (max-width: 1999px){   
   
     #appointment_form { 
     font-size: 1em;
