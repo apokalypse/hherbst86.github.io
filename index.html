@@ -1,1 +1,1047 @@
-Hello World
+<!DOCTYPE html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Satisfy|Roboto|Open+Sans|Josefin+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://hherbst86.github.io/radio.css"> 
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Satisfy|Roboto|Open+Sans|Josefin+Sans|Bungee" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+
+</head>  
+  
+<body>
+
+<div class="top-nav row">
+  <a href="#about-me-anchor">About Me</a>
+  <a href="#carousel-anchor">Projects</a>
+  <a href="#card-anchor">Contact</a>
+  </div>
+  
+<div class="row front-page-wrapper">
+  <div class="col one"></div>
+  <figure class="overlay col eleven">
+    <img src="http://res.cloudinary.com/elemenope/image/upload/v1497913731/horizon2_ajozlo.png"/>
+    <figcaption class="welcome">
+      <span id="cap-one">Hello, my name is</span> 
+      <span id="cap-two">Hannah Herbst</span>
+      <hr></hr>
+      <span id="cap-three">In this portfolio, you will find a sample of what I aim to build: <br><br>beautiful, practical and thoughtful solutions.</span>
+      <a href="#about-me-anchor"><i class="fa fa-angle-double-down fa-3x" id="first-double-down" aria-hidden="true"></i></a>
+      </figcaption>
+    </figure>
+</div>
+
+
+<div class="row aboutMe-wrapper">
+
+  <a name="about-me-anchor"></a>
+  
+<p class="aboutMe col nine">My name is Hannah, and I am an aspiring Fullstack Developer. I have a hungry mind, and I just love to implement new ideas (including yours!). When I'm not building a project, I'm wandering Azeroth in World of Warcraft or the woods and beaches of Florida, or maybe even playing guitar.</p>
+  <div class="row">
+    <div class="avatar-container">
+<img id="avatar" src="http://res.cloudinary.com/elemenope/image/upload/v1499563847/portfolioAvatar_bdoguv.jpg"/>
+  </div>
+  </div>
+  <div class="row">
+<p class="aboutMe" id="pe">
+  <a>Contact me.</a> Let's make a difference.
+  </p>
+  <a href="#carousel-anchor"><i class="fa fa-angle-double-down fa-3x" id="second-double-down" aria-hidden="true"></i></a>
+  </div>
+</div>
+</div>
+
+<div class="carousel-wrapper row">
+  
+
+  <div class="project-display-section">
+  
+    <a name="carousel-anchor"></a>
+    
+  <!--- 
+
+These radio tabs are used to control state. By giving each radio button the same value for the name attribute, we are able to use them to toggle between tabs, by making use of the sibling selector, which is "~". 
+
+For an in depth explanation of radio-controlled states in CSS, please refer to:
+https://alistapart.com/article/radio-controlled-web-design
+
+-->
+  
+    <input type="radio" id="input-tab-1" name="projects" checked>
+    <input type="radio" id="input-tab-2" name="projects">
+    <input type="radio" id="input-tab-3" name="projects">
+    <input type="radio" id="input-tab-4" name="projects">
+    <input type="radio" id="input-tab-5" name="projects">
+    <input type="radio" id="input-tab-6" name="projects">
+    <input type="radio" id="input-tab-7" name="projects">
+    <input type="radio" id="input-tab-8" name="projects">
+    <input type="radio" id="input-tab-9" name="projects">
+    <input type="radio" id="input-tab-10" name="projects">
+    <input type="radio" id="input-tab-11" name="projects">
+    <input type="radio" id="input-tab-12" name="projects">
+    <input type="radio" id="input-tab-13" name="projects">
+
+
+
+<!--- 
+
+We use the labels for the radio buttons to click on and toggle between states. The radio buttons are unattractive, and therefore we position them to absolute and far out of the screenview. The "for" attribute dynamically binds the label to the radio button with the same id value. 
+
+-->
+
+  <div class="project-tabs">
+      <label for="input-tab-1" id="tab-1"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>INTERACTIVE TABLES</label>
+      <label for="input-tab-2" id="tab-2"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>BLOG UI</label>
+      <label for="input-tab-3" id="tab-3"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>COLOR PICKER</label>
+      <label for="input-tab-4" id="tab-4"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>CALCULATOR</label>
+      <label for="input-tab-5" id="tab-5"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>IMAGE GALLERY</label>
+      <label for="input-tab-6" id="tab-6"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>NAVIGATOR</label>
+      <label for="input-tab-7" id="tab-7"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>CREDIT CARD FORM</label>
+      <label for="input-tab-8" id="tab-8"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>SHOPPING CART</label>
+      <label for="input-tab-9" id="tab-9"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>RESPONSIVE GRID</label>
+      <label for="input-tab-10" id="tab-10"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>PROGRESS BARS</label>
+      <label for="input-tab-11" id="tab-11"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>QUESTIONNAIRE</label>
+      <label for="input-tab-12" id="tab-12"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>SCHEDULING FORM</label>
+      <label for="input-tab-13" id="tab-13"><i class="fa fa-caret-right triangle" aria-hidden="true" style="font-size: 18pt"></i>SIGN UP FORM</label>
+  </div>
+
+<!--- 
+
+Projects to be displayed go here, and I'm inserting another radio-controlled system in here. 
+
+-->
+
+  <div class="project-gallery">     
+    
+      <!--- BEGIN FIRST NESTED CAROUSEL. -->
+    
+      <ul id="project-1-section">
+        <li>
+          
+          <input type="radio" id="project-1-radio-1" name="carousel-demo-1">
+          <input type="radio" id="project-1-radio-2" name="carousel-demo-1" checked>
+          <input type="radio" id="project-1-radio-3" name="carousel-demo-1">
+          <input type="radio" id="project-1-radio-4" name="carousel-demo-1">
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-1-radio-1" id="project-1-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-1-radio-2" id="project-1-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-1-radio-3" id="project-1-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-1-radio-4" id="project-1-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-1-display-1">
+              
+              <li class="carousel-content">
+                
+                These tables were a fun proto Excel of sorts, created during a Hackathon. You can check rows to either highlight them or remove them for later reference, or even add comments in the cells.
+                
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-1-display-2">
+              
+              <li class="carousel-content">
+                
+                             <img src="http://res.cloudinary.com/elemenope/image/upload/v1502925842/tables01_drmtau.gif"/>
+                
+         
+
+                
+              </li>
+              <li class="carousel__circle"><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-1-display-3">
+              
+              <li class="carousel-content">
+                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-1/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-1">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p>
+                
+              </li>
+              <li class="carousel__circle"><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+          </div>
+
+        </li>
+      </ul>
+
+      <!--- BEGIN SECOND NESTED CAROUSEL. -->
+
+      <ul id="project-2-section">
+        <li>
+          
+          <input type="radio" id="project-2-radio-1" name="carousel-demo-2">
+          <input type="radio" id="project-2-radio-2" name="carousel-demo-2" checked>  
+          <input type="radio" id="project-2-radio-3" name="carousel-demo-2">
+          <input type="radio" id="project-2-radio-4" name="carousel-demo-2">
+
+          <div class="carousel-toggle">
+            
+            <label for="project-2-radio-1" id="project-2-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-2-radio-2" id="project-2-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-2-radio-3" id="project-2-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-2-radio-4" id="project-2-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+             <ul id="project-2-display-1"> 
+               <li class="carousel-content">I collaborated with <a href="http://dgeero89.github.io/" style="display:inline">David Gierman</a> to create a UI for a blog. We were given a mock photoshopped image to replicate.
+                 
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+                 
+               </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-2-display-2">
+              
+              <li class="carousel-content">
+                <img src="http://res.cloudinary.com/elemenope/image/upload/c_scale,q_100,w_424/v1503015753/blogui01_hcexqe.gif" />
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-2-display-3">
+              
+              <li class="carousel-content">
+                <p><a href="https://dgeero89.github.io/blog.modern-developer-ui/">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/DGeero89/blog.modern-developer-ui">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p>
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+      </ul>
+
+      <!--- BEGIN THIRD NESTED CAROUSEL. -->
+
+      <ul id="project-3-section">
+         <li>
+          
+          <input type="radio" id="project-3-radio-1" name="carousel-demo-3"></input>
+          <input type="radio" id="project-3-radio-2" name="carousel-demo-3" checked></input>
+          <input type="radio" id="project-3-radio-3" name="carousel-demo-3"></input>
+          <input type="radio" id="project-3-radio-4" name="carousel-demo-3"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-3-radio-1" id="project-3-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-3-radio-2" id="project-3-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-3-radio-3" id="project-3-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-3-radio-4" id="project-3-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-3-display-1">
+              
+              <li class="carousel-content">This handy tool allows you to create colors based on a range of RGBA values. <br> This was so much fun to make! 
+                
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-3-display-2">
+              
+              <li class="carousel-content">
+      
+                              <img src="http://res.cloudinary.com/elemenope/image/upload/v1503243625/colorpicker01_l0jdzx.gif"/>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-3-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-2/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-2">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul>
+
+      <!--- BEGIN FOURTH NESTED CAROUSEL. -->
+
+      <ul id="project-4-section">
+         <li>
+          
+          <input type="radio" id="project-4-radio-1" name="carousel-demo-4"></input>
+          <input type="radio" id="project-4-radio-2" name="carousel-demo-4" checked></input>
+          <input type="radio" id="project-4-radio-3" name="carousel-demo-4"></input>
+          <input type="radio" id="project-4-radio-4" name="carousel-demo-4"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-4-radio-1" id="project-4-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-4-radio-2" id="project-4-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-4-radio-3" id="project-4-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-4-radio-4" id="project-4-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-4-display-1">
+              
+              <li class="carousel-content">
+               
+                Just your standard calculator, with a little attention paid to the design.
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+              
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-4-display-2">
+              
+              <li class="carousel-content">
+                
+                <img src="http://res.cloudinary.com/elemenope/image/upload/v1503766427/calculator01_rucals.gif"/>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-4-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://codepen.io/hherbst86/pen/ZOyvON">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-4">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+       
+      </ul> 
+
+      <!--- BEGIN FIFTH NESTED CAROUSEL. -->
+
+      <ul id="project-5-section">
+         <li>
+          
+          <input type="radio" id="project-5-radio-1" name="carousel-demo-5"></input>
+          <input type="radio" id="project-5-radio-2" name="carousel-demo-5" checked></input>
+          <input type="radio" id="project-5-radio-3" name="carousel-demo-5"></input>
+          <input type="radio" id="project-5-radio-4" name="carousel-demo-5"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-5-radio-1" id="project-5-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-5-radio-2" id="project-5-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-5-radio-3" id="project-5-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-5-radio-4" id="project-5-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-5-display-1">
+              
+              <li class="carousel-content">
+                
+                An interactive image gallery designed with the challenge of using pure CSS.
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS 
+                </span>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-5-display-2">
+              
+              <li class="carousel-content">
+                
+                <img src="http://res.cloudinary.com/elemenope/image/upload/c_scale,h_364,q_auto/v1503771239/imagegallery01_a4uwsk.gif"/>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-5-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-5/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-5">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+
+      <!--- BEGIN SIXTH NESTED CAROUSEL. -->
+
+      <ul id="project-6-section">
+         <li>
+          
+          <input type="radio" id="project-6-radio-1" name="carousel-demo-6"></input>
+          <input type="radio" id="project-6-radio-2" name="carousel-demo-6" checked></input>
+          <input type="radio" id="project-6-radio-3" name="carousel-demo-6"></input>
+          <input type="radio" id="project-6-radio-4" name="carousel-demo-6"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-6-radio-1" id="project-6-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-6-radio-2" id="project-6-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-6-radio-3" id="project-6-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-6-radio-4" id="project-6-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-6-display-1">
+              
+              <li class="carousel-content">
+                
+                An innovative tool I invented that dynamically creates anchors throughout a page, allowing the user to navigate through the page at a simple click.
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+              
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-6-display-2">
+              
+              <li class="carousel-content">
+                
+                <img src="http://res.cloudinary.com/elemenope/image/upload/v1503793299/naviator01_cz8dlq.gif" />
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-6-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-6/index.html#top">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-6">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+
+      <!--- BEGIN SEVENTH NESTED CAROUSEL. -->
+
+      <ul id="project-7-section">
+         <li>
+          
+          <input type="radio" id="project-7-radio-1" name="carousel-demo-7"></input>
+          <input type="radio" id="project-7-radio-2" name="carousel-demo-7" checked></input>
+          <input type="radio" id="project-7-radio-3" name="carousel-demo-7"></input>
+          <input type="radio" id="project-7-radio-4" name="carousel-demo-7"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-7-radio-1" id="project-7-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-7-radio-2" id="project-7-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-7-radio-3" id="project-7-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-7-radio-4" id="project-7-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-7-display-1">
+              
+              <li class="carousel-content">
+                
+                One of the first forms I ever made, custom form validation included.
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+              
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-7-display-2">
+              
+              <li class="carousel-content">
+                
+                <img src="http://res.cloudinary.com/elemenope/image/upload/v1507940221/creditcard01_fiq4up.gif" />
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-7-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-7/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-7">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+
+      <!--- BEGIN EIGHTH NESTED CAROUSEL. -->
+
+      <ul id="project-8-section">
+         <li>
+          
+          <input type="radio" id="project-8-radio-1" name="carousel-demo-8"></input>
+          <input type="radio" id="project-8-radio-2" name="carousel-demo-8" checked></input>
+          <input type="radio" id="project-8-radio-3" name="carousel-demo-8"></input>
+          <input type="radio" id="project-8-radio-4" name="carousel-demo-8"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-8-radio-1" id="project-8-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-8-radio-2" id="project-8-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-8-radio-3" id="project-8-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-8-radio-4" id="project-8-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-8-display-1">
+              
+              <li class="carousel-content">
+                
+                Mock product page that allows the user to add items to a cart, which can be seen in a mini cart at the top of the page. The design concept was inspired by cats and French boutiques.
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+              
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-8-display-2">
+              
+              <li class="carousel-content">
+                
+                <img src="http://res.cloudinary.com/elemenope/image/upload/c_scale,h_400/v1503859179/productpage01_o5c2vi.gif" />
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-8-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-8/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-8">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+
+      <!--- BEGIN NINTH NESTED CAROUSEL. -->
+
+      <ul id="project-9-section">
+         <li>
+          
+          <input type="radio" id="project-9-radio-1" name="carousel-demo-9"></input>
+          <input type="radio" id="project-9-radio-2" name="carousel-demo-9" checked></input>
+          <input type="radio" id="project-9-radio-3" name="carousel-demo-9"></input>
+          <input type="radio" id="project-9-radio-4" name="carousel-demo-9"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-9-radio-1" id="project-9-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-9-radio-2" id="project-9-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-9-radio-3" id="project-9-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-9-radio-4" id="project-9-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-9-display-1">
+              
+              <li class="carousel-content">
+                
+                I created a reusable grid for responsive design, with multiple layout options for mobile.
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS 
+                </span>
+              
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-9-display-2">
+              
+              <li class="carousel-content">
+                
+                <img src="http://res.cloudinary.com/elemenope/image/upload/c_scale,h_400/v1503859719/grid01_hw4e9k.gif" />
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-9-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-9/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-9">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+
+      <!--- BEGIN TENTH NESTED CAROUSEL. -->
+
+      <ul id="project-10-section">
+         <li>
+          
+          <input type="radio" id="project-10-radio-1" name="carousel-demo-10"></input>
+          <input type="radio" id="project-10-radio-2" name="carousel-demo-10" checked></input>
+          <input type="radio" id="project-10-radio-3" name="carousel-demo-10"></input>
+          <input type="radio" id="project-10-radio-4" name="carousel-demo-10"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-10-radio-1" id="project-10-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-10-radio-2" id="project-10-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-10-radio-3" id="project-10-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-10-radio-4" id="project-10-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-10-display-1">
+              
+              <li class="carousel-content">
+                
+                These progress bars were created during a Hackathon, with different variations as you can see.
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+              
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-10-display-2">
+              
+              <li class="carousel-content">
+                
+                <img src="http://res.cloudinary.com/elemenope/image/upload/v1503860101/progressbar01_ns0dww.gif"/>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-10-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-10/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-10">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+
+      <!--- BEGIN ELEVENTH NESTED CAROUSEL. -->
+
+      <ul id="project-11-section">
+         <li>
+          
+          <input type="radio" id="project-11-radio-1" name="carousel-demo-11"></input>
+          <input type="radio" id="project-11-radio-2" name="carousel-demo-11" checked></input>
+          <input type="radio" id="project-11-radio-3" name="carousel-demo-11"></input>
+          <input type="radio" id="project-11-radio-4" name="carousel-demo-11"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-11-radio-1" id="project-11-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-11-radio-2" id="project-11-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-11-radio-3" id="project-11-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-11-radio-4" id="project-11-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-11-display-1">
+              
+              <li class="carousel-content">A simple questionnaire, minimal design, with the user in mind.
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS, JavaScript
+                </span>
+              
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-11-display-2">
+              
+              <li class="carousel-content">
+                <img src="http://res.cloudinary.com/elemenope/image/upload/c_scale,h_306,q_100/v1505002588/survey01_m3whuo.gif"/>
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-11-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-11/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-11">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+
+      <!--- BEGIN TWELVTH NESTED CAROUSEL. -->
+
+      <ul id="project-12-section">
+         <li>
+          
+          <input type="radio" id="project-12-radio-1" name="carousel-demo-12"></input>
+          <input type="radio" id="project-12-radio-2" name="carousel-demo-12" checked></input>
+          <input type="radio" id="project-12-radio-3" name="carousel-demo-12"></input>
+          <input type="radio" id="project-12-radio-4" name="carousel-demo-12"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-12-radio-1" id="project-12-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-12-radio-2" id="project-12-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-12-radio-3" id="project-12-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-12-radio-4" id="project-12-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-12-display-1">
+              
+              <li class="carousel-content">
+                
+                I created a form that I imagined could be used by investors.
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS 
+                </span>
+              
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-12-display-2">
+              
+              <li class="carousel-content">
+                
+                <img src="http://res.cloudinary.com/elemenope/image/upload/c_scale,h_400/v1504222710/schedulingform01_aoqqtw.gif"/>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-12-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-12/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-12">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></a></p></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+
+      <!--- BEGIN THIRTEENTH NESTED CAROUSEL. -->
+
+      <ul id="project-13-section">
+         <li>
+          
+          <input type="radio" id="project-13-radio-1" name="carousel-demo-13"></input>
+          <input type="radio" id="project-13-radio-2" name="carousel-demo-13" checked></input>
+          <input type="radio" id="project-13-radio-3" name="carousel-demo-13"></input>
+          <input type="radio" id="project-13-radio-4" name="carousel-demo-13"></input>
+
+
+          <div class="carousel-toggle">
+            
+            <label for="project-13-radio-1" id="project-13-radio-1-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-13-radio-2" id="project-13-radio-2-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label> 
+            <label for="project-13-radio-3" id="project-13-radio-3-label">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i> 
+            </label>
+            <label for="project-13-radio-4" id="project-13-radio-4-label">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+            </label>
+            
+          </div>
+
+
+          <div class="carousel-display">
+            
+            <ul id="project-13-display-1">
+              
+              <li class="carousel-content">
+                
+                Simple signup form created with the end user in mind. One of my first projects ever!
+              
+                <span class="technologies-used">
+                  Technologies used: HTML, CSS 
+                </span>
+                
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-13-display-2">
+              
+              <li class="carousel-content">
+                <img src="http://res.cloudinary.com/elemenope/image/upload/v1507851786/signupform01_lkjsuu.gif"/>
+              </li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            <ul id="project-13-display-3">
+              
+              <li class="carousel-content">                
+                <p><a href="https://hherbst86.github.io/hherbst86.github.io/project-13/index.html">View Demo <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                <p><a href="https://github.com/hherbst86/hherbst86.github.io/tree/master/project-13">View on GitHub <i class="fa fa-github" aria-hidden="true"></i></p></a></li>
+              <li><i class="fa fa-circle" aria-hidden="true"></i></li>
+              
+            </ul>
+            
+          </div>
+
+        </li>
+
+      </ul> 
+  </div>
+
+<a href="#card-anchor"><i class="fa fa-angle-double-down fa-3x" id="third-double-down" aria-hidden="true"></i></a>
+
+</div>
+</div>
+
+<div class="row">
+  
+  
+<div id="card-wrapper"><a name="card-anchor"></a>
+<div id="card" class="shadow">
+  <div class="card-front">
+    <img src="http://i67.tinypic.com/rcvnms.png"/>
+    <h2>Hannah Herbst</h2>
+    <p>#frontenddeveloper</p>
+    <a href="mailto:webfaerie@gmail.com?Subject=Inquiry" target="_top">webfaerie@gmail.com</a>
+  </div>
+  <div class="card-back center">
+    <img src="http://i64.tinypic.com/idy5up.png"/>
+    <h2>Hannah Herbst</h2>
+    <h3>UI Design ▪ Social Media ▪ Frontend Development</h3>
+    <p>Programmer in touch with her human side.</p>
+    <a id="contact" href="mailto:webfaerie@gmail.com?Subject=Inquiry" target="_top">webfaerie@gmail.com</a>
+    <a id="website" href="somesite.com">someSite.com</a>
+    <a href="https://github.com/hherbst86"><img id="icon-github" src="http://i68.tinypic.com/qqrc5y.png"/></a>
+    <a href="https://www.linkedin.com/in/hannah-herbst-066382139/"><img id="icon-linkedin" src="http://i65.tinypic.com/6yz0k0.png"/></a>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
